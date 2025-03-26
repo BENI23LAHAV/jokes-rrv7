@@ -40,7 +40,14 @@ export default function NewJoke({ loaderData }: Route.ComponentProps) {
   }
 
   return (
-    <div style={{ maxWidth: "600px", margin: "0 auto", padding: "20px" }}>
+    <div
+      style={{
+        maxWidth: "600px",
+        margin: "0 auto",
+        padding: "20px",
+        backgroundColor: "white",
+        color: "black",
+      }}>
       <h1 style={{ textAlign: "center", marginBottom: "20px" }}>Edit Joke</h1>
 
       <Form method="post" style={{ display: "flex", flexDirection: "column" }}>

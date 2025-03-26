@@ -1,6 +1,6 @@
 @import "tailwindcss";
 
-@theme {
+/* @theme {
   --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
@@ -12,4 +12,24 @@ body {
   @media (prefers-color-scheme: dark) {
     color-scheme: dark;
   }
+} */
+
+/* @font-face {
+  font-family: "Whitney";
+  src: url("/whitney/whitney-light.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+} */
+
+@theme {
+  --color-gray-50: #ecedee;
+  --color-gray-100: #dcddee;
+  --color-gray-200: #b9bbbe;
+  --color-gray-300: #8e9297;
+  --color-gray-400: #72767d;
+  --color-gray-500: #5c6067;
+  --color-gray-600: #464950;
+  --color-gray-700: #36393f;
+  --color-gray-800: #2f3136;
+  --color-gray-900: #202225;
 }

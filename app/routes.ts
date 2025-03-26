@@ -5,4 +5,5 @@ export default [
   route("/jokes", "routes/jokes.tsx"),
   route("/:jokeID/new", "routes/newJoke.tsx"),
   route("/:jokeID/delete", "routes/deleteJoke.tsx"),
+  route("/tailWindTest", "routes/tailWindTest.tsx"),
 ] satisfies RouteConfig;
