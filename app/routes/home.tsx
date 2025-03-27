@@ -31,6 +31,7 @@ export default function Home() {
 
       {/* <Welcome /> */}
       <NavLink to="/tailWindTest">TailWindTest</NavLink>
+      <NavLink to="/foogle">Foogle</NavLink>
     </div>
   );
 }
